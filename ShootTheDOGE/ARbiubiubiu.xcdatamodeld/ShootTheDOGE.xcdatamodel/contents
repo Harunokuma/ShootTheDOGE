@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13154.26" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameSetting" representedClassName="GameSetting" syncable="YES" codeGenerationType="class">
+        <attribute name="bulletATK" optional="YES" attributeType="Integer 32" minValueString="1" defaultValueString="50" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterATK" optional="YES" attributeType="Integer 32" minValueString="1" maxValueString="100" defaultValueString="10" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterGenerateRateMax" optional="YES" attributeType="Float" minValueString="1" defaultValueString="2" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterGenerateRateMin" optional="YES" attributeType="Float" minValueString="1" defaultValueString="6" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterMaxHP" optional="YES" attributeType="Integer 32" minValueString="1" defaultValueString="100" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterSpeedMax" optional="YES" attributeType="Float" minValueString="0" maxValueString="3" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monsterSpeedMin" optional="YES" attributeType="Float" minValueString="0" maxValueString="3" defaultValueString="0.5" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GameSetting" positionX="-63" positionY="-18" width="128" height="28"/>
+    </elements>
+</model>
